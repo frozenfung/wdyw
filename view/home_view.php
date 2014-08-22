@@ -59,7 +59,7 @@ html{
 //original 
 var src;
 var text;
-
+var testgit;
 
 function init(){
 	$("img.images").lazyload({
