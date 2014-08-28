@@ -4,7 +4,7 @@
 	class="fb-like"
 	data-send="true"
 	data-width="450"
-	data-show-faces="true">
+	data-layout="button_count">
 </div>
 <div id="header">
 	<div id="header_fix">

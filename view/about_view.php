@@ -1,8 +1,22 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:og="http://ogp.me/ns#" 
+xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--fb OpenGraph-->
+<meta property="og:description" content="Travel, mood, anything? PicturE tell whatever you want..." />
+<meta property="og:title" content="what do you want? | Travel, Mood, Anything"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://frozenfung.com"/>
+<meta property="og:image" content="http://frozenfung.com/wdyw/img/IMG_3508.png"/>
+<meta property="og:image" content="http://frozenfung.com/wdyw/img/IMG_3554.png"/>
+<meta property="og:image" content="http://frozenfung.com/wdyw/img/IMG_3647.png"/>
+<meta property="og:site_name" content="what do you want?" />
+<meta property="fb:app_id" content="707505445985105"/>
+<meta property="fb:admins" content="100000112760324"/>
+
 <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
 <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
@@ -47,6 +61,25 @@ function init(){
 </script>
 </head>
 <body>
+<script>
+	//FB SDK load
+	window.fbAsyncInit = function() {
+		FB.init({
+		status     : true,
+		appId      : '707505445985105',
+		xfbml      : true,
+		version    : 'v2.0'
+		});
+	};
+
+	(function(d, s, id){
+	 var js, fjs = d.getElementsByTagName(s)[0];
+	 if (d.getElementById(id)) {return;}
+	 js = d.createElement(s); js.id = id;
+	 js.src = "//connect.facebook.net/en_US/sdk.js";
+	 fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
 <? include '../ref/header.php';?>
 	<div id="container">
 		<div id="content" style="padding-top:70px;">
