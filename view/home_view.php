@@ -52,6 +52,8 @@ html{
 	height:175px;
 }
 
+
+
 </style>
 <script src="../js/jquery.js"></script>
 <script src="../js/jquery.lazyload.js"></script>
@@ -162,6 +164,31 @@ function init(){
 </script>
 </head>
 <body>
+
+<script>
+	//FB SDK load
+	window.fbAsyncInit = function() {
+		FB.init({
+		status     : true,
+		appId      : '{707505445985105}',
+		xfbml      : true,
+		version    : 'v2.0'
+		});
+	};
+
+	(function(d, s, id){
+	 var js, fjs = d.getElementsByTagName(s)[0];
+	 if (d.getElementById(id)) {return;}
+	 js = d.createElement(s); js.id = id;
+	 js.src = "//connect.facebook.net/en_US/sdk.js";
+	 fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!--fb like button-->
+
+
+
 <? include '../ref/header.php';?>
 	<div id="container">
 		<div id="content">

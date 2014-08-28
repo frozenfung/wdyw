@@ -24,13 +24,17 @@ a:link, a:visited{
 	font-family: 'Love Ya Like A Sister', cursive;
 	font-size:2.5em;
 	text-align:left;
-	padding-top:50px;
+	padding-top:60px;
 	float:left;
 }
 
 .header_subtitle{
 	font-size:0.4em;
 	text-align:left;
+}
+
+.fb-like{
+	padding:10px;
 }
 
 .label{
