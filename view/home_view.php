@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 xmlns:og="http://ogp.me/ns#" 
 xmlns:fb="http://www.facebook.com/2008/fbml">
-<head>  
+<head prefix="whatdoyouwant_: http://frozenfung.com/wdyw/model/home.php">  
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--fb OpenGraph-->
 <meta property="og:description" content="Travel, mood, anything? PicturE tell whatever you want..." />
 <meta property="og:title" content="what do you want? | Travel, Mood, Anything"/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="http://frozenfung.com"/>
+<meta property="og:type" content="whatdoyouwant_:picture"/>
+<meta property="og:url" content="http://frozenfung.com/wdyw/model/home.php"/>
 <meta property="og:image" content="http://frozenfung.com/wdyw/img/IMG_3508.png"/>
 <meta property="og:image" content="http://frozenfung.com/wdyw/img/IMG_3554.png"/>
 <meta property="og:image" content="http://frozenfung.com/wdyw/img/IMG_3647.png"/>
